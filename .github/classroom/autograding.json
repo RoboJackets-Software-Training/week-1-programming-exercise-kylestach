@@ -13,7 +13,7 @@
     {
       "name": "Exercise 1.1: Turn Left",
       "setup": "cd exercise_1_1 && mkdir -p build && cd build && cmake ..&& make",
-      "run": "cd exercise_1_0/build && ./exercise_1_1",
+      "run": "cd exercise_1_1/build && ./exercise_1_1",
       "input": "a\r\ne",
       "output": "wheel at index 0 has speed: 0\r\nwheel at index 1 has speed: 0\r\nwheel at index 2 has speed: 0\r\nwheel at index 3 has speed: 0\r\nShutting down\r\nwheel at index 0 has speed: 0\r\nwheel at index 1 has speed: 0\r\nwheel at index 2 has speed: 0\r\nwheel at index 3 has speed: 0",
       "comparison": "included",
