@@ -55,7 +55,7 @@
       "setup": "cd exercise_1_1 && mkdir -p build && cd build && cmake ..&& make",
       "run": "cd exercise_1_1/build && ./exercise_1_1",
       "input": "z\r\ne",
-      "output": "Sorry, I didn't get that. Try again.\r\nwheel at index 0 has speed: 1\r\nwheel at index 1 has speed: 0.5\r\nwheel at index 2 has speed: 1\r\nwheel at index 3 has speed: 0.5\r\nShutting down\r\nwheel at index 0 has speed: 0\r\nwheel at index 1 has speed: 0\r\nwheel at index 2 has speed: 0\r\nwheel at index 3 has speed: 0\r\n",
+      "output": "Sorry, I didn't get that. Try again.\r\nwheel at index 0 has speed: 0\r\nwheel at index 1 has speed: 0\r\nwheel at index 2 has speed: 0\r\nwheel at index 3 has speed: 0\r\nShutting down\r\nwheel at index 0 has speed: 0\r\nwheel at index 1 has speed: 0\r\nwheel at index 2 has speed: 0\r\nwheel at index 3 has speed: 0\r\n",
       "comparison": "included",
       "timeout": 1,
       "points": 1
@@ -81,9 +81,9 @@
       "points": 1
     },
     {
-      "name": "Exercise 1.2",
+      "name": "Exercise 1.2.1",
       "setup": "cd exercise_1_2 && mkdir -p build && cd build && cmake ... && make",
-      "run": "./exercise_1_2/build/exercise_1_2",
+      "run": "./exercise_1_2/build/exercise_1_2_1",
       "input": "1 2 3 4 5 e ",
       "output": "Input List Of Numbers (end list with non-integer):\r\nOriginal Vector: 1 2 3 4 5 \r\nReversed Vector: 5 4 3 2 1\r\n",
       "comparison": "included",
