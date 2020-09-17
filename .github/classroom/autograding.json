@@ -82,7 +82,7 @@
     },
     {
       "name": "Exercise 1.2.1",
-      "setup": "cd exercise_1_2 && mkdir -p build && cd build && cmake ... && make",
+      "setup": "cd exercise_1_2 && mkdir -p build && cd build && cmake .. && make",
       "run": "./exercise_1_2/build/exercise_1_2_1",
       "input": "1 2 3 4 5 e ",
       "output": "Input List Of Numbers (end list with non-integer):\r\nOriginal Vector: 1 2 3 4 5 \r\nReversed Vector: 5 4 3 2 1\r\n",
@@ -92,7 +92,7 @@
     },
     {
       "name": "Project 1.3: Test Case 1",
-      "setup": "cd project_1_3 && mkdir -p build && cd build && cmake ... && make",
+      "setup": "cd project_1_3 && mkdir -p build && cd build && cmake .. && make",
       "run": "./project_1_3/build/project_1_3",
       "input": "true\r\n1,2,3,4,5,6,7\r\n2,5,6",
       "output": "x: {1, 2, 3, 4, 5, 6, 7}\r\nw: {2, 5, 6}\r\n{17, 30, 43, 56, 69, 82, 47}",
@@ -102,7 +102,7 @@
     },
     {
       "name": "Project 1.3: Test Case 2",
-      "setup": "cd project_1_3 && mkdir -p build && cd build && cmake ... && make",
+      "setup": "cd project_1_3 && mkdir -p build && cd build && cmake .. && make",
       "run": "./project_1_3/build/project_1_3",
       "input": "true\r\n1,2,3,4,5,6,7,8,9\r\n2,5,6,-1,-2",
       "output": "x: {1, 2, 3, 4, 5, 6, 7, 8, 9}\r\nw: {2, 5, 6, -1, -2}\r\n{-2, 6, 16, 26, 36, 46, 56, 86, 108}",
@@ -112,7 +112,7 @@
     },
     {
       "name": "Project 1.3: Test Case 3",
-      "setup": "cd project_1_3 && mkdir -p build && cd build && cmake ... && make",
+      "setup": "cd project_1_3 && mkdir -p build && cd build && cmake .. && make",
       "run": "./project_1_3/build/project_1_3",
       "input": "false\r\n1,2,3,4,5,6,7\r\n2,5,6",
       "output": "x: {1, 2, 3, 4, 5, 6, 7}\r\nw: {2, 5, 6}\r\n{19, 30, 43, 56, 69, 82, 89}",
